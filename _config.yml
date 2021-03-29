@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "annie"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/imges.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "아마 컴퓨터공학 희망 학생"
   location         : "대한민국.서울"
   email            : "diminished001@gmail.com"
