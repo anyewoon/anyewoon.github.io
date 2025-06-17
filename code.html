@@ -1,22 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>코드 모음</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 40px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back {
+      margin-top: 30px;
+      display: inline-block;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
 </head>
-<body style="font-family:sans-serif;">
-  <h1>코드 모음</h1>
-  
-  <h2>파이썬</h2>
-  <ul>
-    <li><a href="https://github.com/anyewoon/anyewoon.github.io/blob/main/python/bmi_calculator.py" target="_blank">BMI 계산기</a></li>
-  </ul>
+<body>
+  <div class="container">
+    <h1>📂코드 모음</h1>
 
-  <h2>자바</h2>
-  <ul>
-    <li><a href="https://github.com/anyewoon/anyewoon.github.io/blob/main/java/gui_example.java" target="_blank">GUI 예제</a></li>
-  </ul>
+    <h2>🐍 파이썬</h2>
+    <ul>
+      <li><a href="https://github.com/anyewoon/anyewoon.github.io/blob/main/python/bmi_calculator.py" target="_blank">BMI 계산기</a></li>
+    </ul>
 
-  <a href="index.html">← 메인으로 돌아가기</a>
+    <h2>☕ 자바</h2>
+    <ul>
+      <li><a href="https://github.com/anyewoon/anyewoon.github.io/blob/main/java/gui_example.java" target="_blank">GUI 예제</a></li>
+    </ul>
+
+    <a class="back" href="index.html">← 메인으로 돌아가기</a>
+  </div>
 </body>
 </html>
